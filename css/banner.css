@@ -1,0 +1,66 @@
+.banner-bg {
+  background-image: url("../img/banner.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center bottom;
+}
+
+.banner {
+  text-align: right;
+  padding: 180px 0px 250px 0px;
+  max-width: 1310px;
+}
+
+.banner-frase1 {
+  font-size: 3.125rem;
+  line-height: 1;
+  font-family: "Agrandir Light";
+}
+
+.banner-frase2 {
+  font-size: 4.375rem;
+  line-height: 1.2;
+  font-family: "Agrandir Heavy";
+  margin-bottom: 20px;
+}
+
+.banner-whatsapp {
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  border: 1px solid black;
+  padding: 8px 20px;
+  transition: border 0.5s ease, color 0.5s ease;
+}
+
+.banner-whatsapp:hover {
+  color: #557b93;
+  border: 1px solid #557b93;
+}
+
+@media (max-width: 800px) {
+  .banner-bg {
+    background-image: url("../img/banner.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center center;
+  }
+  .banner {
+    text-align: center;
+    padding: 50px 0px 100px 0px;
+    max-width: 600px;
+  }
+  .banner-frase1 {
+    font-size: 1.5rem;
+    line-height: 1;
+    font-family: "Agrandir Light";
+  }
+
+  .banner-frase2 {
+    font-size: 2rem;
+    line-height: 1.2;
+    font-family: "Agrandir Heavy";
+    margin-bottom: 20px;
+  }
+}

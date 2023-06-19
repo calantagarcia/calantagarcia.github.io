@@ -1,0 +1,44 @@
+.rodape-bg {
+  background-color: #f4f4f4;
+  max-width: 100%;
+  border-bottom: 1px solid black;
+}
+
+.rodape {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  max-width: 1200px;
+  padding: 70px 0px;
+  gap: 15px;
+}
+
+.rodape-social {
+  max-width: 30px;
+  transition: transform 0.5s ease;
+}
+
+.rodape-social:hover {
+  transition: transform 0.5s ease;
+  transform: scale(1.1);
+}
+
+.credito {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  max-width: 1200px;
+  padding: 20px 0px;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 800px) {
+  .credito {
+    max-width: 600px;
+    font-size: 0.8rem;
+  }
+}

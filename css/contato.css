@@ -1,0 +1,78 @@
+.contato-bg {
+  background-color: #e3e5e5;
+  max-width: 100%;
+  border-bottom: 1px solid black;
+}
+
+.contato {
+  color: black;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  max-width: 1200px;
+}
+
+.contato-caixa {
+  position: relative;
+  z-index: 1;
+  background-color: #f4f4f4;
+  border: 1px solid black;
+  padding: 57px 100px;
+  margin-left: -30px;
+}
+
+.contato-caixa h2 {
+  font-family: "Agrandir Light";
+  font-size: 1.6rem;
+}
+
+.contato-caixa p {
+  font-family: "DM Sans", "Arial", sans-serif;
+  font-size: 1.3rem;
+  margin: 10px 0px 25px 0px;
+}
+
+.contato-botao {
+  background-color: black;
+  padding: 10px 60px;
+  color: #f4f4f4;
+  text-decoration: none;
+  font-family: "DM Sans", "Arial", sans-serif;
+  font-size: 1.3rem;
+  border: 1px solid black;
+  transition: background-color 0.5s ease, border 0.5s ease, color 0.5s ease;
+}
+
+.contato-botao:hover {
+  background-color: #f4f4f4;
+  border: 1px solid black;
+  color: black;
+}
+
+.contato img {
+  position: relative;
+  z-index: 2;
+  margin: 70px -30px;
+}
+
+@media (max-width: 800px) {
+  .contato {
+    flex-direction: column;
+  }
+  .contato-caixa {
+    flex-direction: column;
+    border: 0px solid black;
+    border-top: 1px solid black;
+    padding: 57px 30px; /* Alteração para diminuir o padding nas laterais */
+    margin: 0px auto; /* Alteração para centralizar na coluna */
+    max-width: 600px; /* Adição para limitar a largura da caixa */
+  }
+
+  .contato img {
+    position: relative;
+    z-index: 2;
+    margin: 70px auto;
+  }
+}

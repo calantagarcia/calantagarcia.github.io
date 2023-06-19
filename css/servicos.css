@@ -1,0 +1,64 @@
+.servicos {
+  max-width: 1200px;
+  margin: 100px auto;
+}
+
+.servicos-conheca {
+  font-family: "DM Sans", "Arial", sans-serif;
+  font-size: 1.8rem;
+  color: #000;
+}
+
+.servicos-servicos {
+  font-family: "Agrandir Light";
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+
+details {
+  cursor: pointer;
+  outline: none;
+  max-width: 1200px;
+  margin: 20px auto;
+  background: #e3e5e5;
+  color: #000;
+  padding: 15px;
+  border: 1px solid black;
+}
+
+.servicos-nome {
+  font-size: 1.2rem;
+  color: #000;
+}
+
+.servicos-texto {
+  padding: 20px 15px 5px 15px;
+  font-size: 1.1rem;
+}
+
+.servicos-conheca::after {
+  content: "";
+  display: inline-block;
+  width: 970px;
+  height: 1px;
+  background: #557b93;
+  margin-left: 20px;
+  margin-bottom: 7px;
+}
+
+@media (max-width: 800px) {
+  .servicos {
+    margin: 0px auto;
+    padding: 50px 20px;
+    max-width: 600px;
+  }
+
+  .servicos-conheca::after {
+    content: "";
+    width: 0px;
+    height: 0px;
+  }
+  .servicos-servicos {
+    font-size: 3.8rem;
+  }
+}

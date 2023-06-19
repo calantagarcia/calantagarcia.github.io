@@ -1,0 +1,24 @@
+.proposito-bg {
+  background-color: black;
+  background-image: url("../img/proposito.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  border: 1px solid black;
+}
+
+.proposito {
+  align-items: left;
+  padding: 120px 0px;
+  max-width: 650px;
+  margin-left: 115px;
+}
+
+.proposito-texto {
+  font-family: "Dm Sans", "Arial", sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.25;
+  background-color: #f4f4f4;
+  border: 1px solid #557b93;
+  padding: 28px 29px;
+}

@@ -1,0 +1,33 @@
+body {
+  background: #f4f4f4;
+  font-family: "DM Sans", Arial, sans-serif;
+  color: #000;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+@font-face {
+  font-family: "Agrandir Heavy";
+  src: url("../fonts/Agrandir-GrandHeavy.otf");
+}
+
+@font-face {
+  font-family: "Agrandir Light";
+  src: url("../fonts/Agrandir-GrandLight.otf");
+}
