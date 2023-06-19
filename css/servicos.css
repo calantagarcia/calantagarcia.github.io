@@ -39,11 +39,11 @@ details {
 .servicos-conheca::after {
   content: "";
   display: inline-block;
-  width: 970px;
+  width: 963px;
   height: 1px;
   background: #557b93;
   margin-left: 20px;
-  margin-bottom: 7px;
+  margin-bottom: 0px;
 }
 
 @media (max-width: 800px) {

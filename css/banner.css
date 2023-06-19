@@ -8,7 +8,7 @@
 .banner {
   text-align: right;
   padding: 180px 0px 250px 0px;
-  max-width: 1310px;
+  max-width: 1550px;
 }
 
 .banner-frase1 {
@@ -62,5 +62,13 @@
     line-height: 1.2;
     font-family: "Agrandir Heavy";
     margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .banner {
+    text-align: right;
+    padding: 180px 0px 250px 0px;
+    max-width: 1310px;
   }
 }
